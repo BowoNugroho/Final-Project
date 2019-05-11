@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <link rel="stylesheet" href="./src/css/style.table.css">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <script src="./src/js/jquery-3.4.1.min.js"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/script.table.js"></script>
+</head>
+
+<body>
+    <!-- Link -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./calculator.html">Calculator</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./table.html">Table</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End Link -->
+    <input type="text" id="search" onkeyup="search()" placeholder="search for name" title="Type in a name">
+    <button id="sort" onclick="sort()">sort</button>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>rotation_period</th>
+                <th>orbital_period</th>
+                <th>diameter</th>
+                <th>climate</th>
+                <th>gravity</th>
+                <th>terrain</th>
+                <th>surface_water</th>
+                <th>population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="layout"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="./src/js/script.table.js"></script>
+</body>
+
+</html>

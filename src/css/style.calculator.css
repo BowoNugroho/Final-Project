@@ -1,0 +1,106 @@
+body{
+    /* display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 200px; */
+    background-image: url('../img/50mm-blur-brand-1132150.jpg');
+}
+.top{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+.rectangle{
+    height: 260px;
+    width: 230px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    padding: 0;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.title{
+    height: 40px; 
+    width: 225px;
+    background-color: white;
+    /* opacity: 0.5; */
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.title h1{
+    margin: 0;
+    font-size: 30px;
+}
+.container{
+    height: 160px;
+    width: 190px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.button{
+    height: 38px;
+    width: 38px;
+    background-color: rgb(141, 107, 63);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.button1{
+    height: 36px;
+    width: 40px;
+    background-color: rgb(141, 107, 63);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.input{
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.result{
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.operator{
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.clear{
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+.form input{
+    height: 20px;
+    width: 95%;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+}

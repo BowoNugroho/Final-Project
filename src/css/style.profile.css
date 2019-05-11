@@ -1,0 +1,79 @@
+body{
+    /* justify-content: center;
+    align-content: center;
+    padding: 100px 100px 100px 100px;  */
+}
+.rangka{
+    justify-content: center;
+    align-content: center;
+    padding: 100px 100px 100px 100px;
+}
+.a{
+    height: 300px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    background-image:url('../img/img2.jpg'); 
+    background-size: 1500px;
+    background-position: 0;   
+}
+.b{
+    /* height: 60px; */
+    width: 350px;
+    background-color:rgb(201, 201, 201); 
+    z-index: -9999;
+    padding-left: 150px;
+    padding-top: 140px;
+}
+.c{
+    height: 200px;
+    width: 400px;
+    z-index: -9999;
+    background-color: rgb(201, 201, 201);
+    padding-left:300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: initial;
+}
+.d{
+    height: 200px;
+    width: 399px;
+    background-color: rgb(201, 201, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sosmed{
+    display: inline-flex;
+   position: relative;
+}
+
+.pict{
+    margin: 80px;
+    height: 300px;
+    width: 280px;
+    background-image: url('../img/img3.JPG');
+    background-size: 310px;
+    position: absolute;
+}
+.name{
+    height: 150px;
+    width: 450px;
+    margin-left: 500px;
+    padding-top: 90px;
+    padding-left: 100px;
+}
+.name1{
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+}
+.github{
+    height: 40px;
+    width: 40px;
+}
